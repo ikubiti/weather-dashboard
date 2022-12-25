@@ -50,11 +50,43 @@ In addition to acceptance criteria above, the application has additional feature
 
 ## Installation
 
-Please visit
+Please visit https://ikubiti.github.io/weather-dashboard/
 
 ## Usage
 
 The application starts by presenting a landing page with the current date and time, the search history if present and a snow fall animation.
+
+The image below is the landing page the user gets when they enter the website address. ![Weather Dashboard Landing Page](./assets/images/Landing-Page.png)
+
+The user providing only the city's name to search. ![User enters london in city input field](./assets/images/City-only-Search.png)
+
+The results from searching only by city name. ![App displays weather information for the most popular city by that name](./assets/images/City-only-results.png)
+
+The user attempting to use the country field. ![App displaying all countries](./assets/images/Select-Country.png)
+
+The user attempting to use the states field without providing a country. The states list is empty. ![App present empty list](./assets/images/select-state-empty-country.png)
+
+The user providing a city and country name to search. ![User enters london and United States of America](./assets/images/City-Country-Search.png)
+
+The results from providing city and country ![App presents results for Kentucky, US](./assets/images/City-Country-Results.png)
+
+The user providing a city, country, and state names for a specific location. ![User enters london, United States of America, and West Virginia](./assets/images/City-Country-State-Search.png)
+
+The results from providing city, country, and state data. ![App presents results for london, West Virginia, US](./assets/images/City-Country-State-Result.png)
+
+The user attempting to use previous search history to perform another search. ![User about to click on Kyoto](./assets/images/Use-Search-History.png)
+
+The app presents a new result for the search and increases the number of times the user has searched for Kyoto. ![App presents new results for Kyoto](./assets/images/Search-history-result.png)
+
+The user attempting to perform a search without providing any city's name ![App presents error message](./assets/images/Empty-City.png)
+
+The user providing a non-existent city's name to search. ![App presents an error message](./assets/images/Non-existent-city.png)
+
+The user providing an existing city in a wrong country. ![App presents an error message](./assets/images/Existing-city-wrong-country.png)
+
+The user about to clear the search history. ![User about to click on Clear History button](./assets/images/Clear-History.png)
+
+The app clears all user search history. ![App shows no search history](./assets/images/History-Cleared.png)
 
 ## Credits
 
